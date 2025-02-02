@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         urlButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = "https://abhishek.koirala@newsummit.edu.np";
+                String url = "https://github.com/shekharjoshi01/ClassAssignment";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(intent);
             }
